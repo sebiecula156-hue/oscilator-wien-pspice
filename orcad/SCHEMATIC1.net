@@ -1,0 +1,38 @@
+* source P1_IAD
+C_C1         N057550 OUT  4.7n  TC=0,0 
+C_C3         N00816 0  100n  TC=0,0 
+C_C2         0 IN+  4.7n  TC=0,0 
+C_C4         OUT N02353  100p  TC=0,0 
+R_R2         IN+ N065780  3.3k TC=0,0 
+R_R3         N068431 IN+  330 TC=0,0 
+R_R11         N01073 N00816  47k TC=0,0 
+R_R10         0 N01073  0.47 TC=0,0 
+R_R17         N30534 N01513  2k TC=0,0 
+R_R12         N01513 N02353  1.8k TC=0,0 
+R_R14         N01588 N02452  1.5k TC=0,0 
+R_R19         N09592 N02452  2k TC=0,0 
+X_D1         N00816 OUT awb1n4148 PARAMS:                
+V_V-         N01513 0 -13V
+V_V+         N02452 0 13V
+R_R9         N60166 N69176  100 TC=0,0 
+R_R6         N00816 IN-  47k TC=0,0 
+R_R4         0 N068431  3.3k TC=0,0 
+R_R1         N065780 N057550  330 TC=0,0 
+X_D3         0 N30534 awbbzx84c5v1 PARAMS:               
+X_D2         N09592 0 awbbzx84c5v1 PARAMS:               
+Q_Q5         OUT N02353 N03433 BC817-25 
+Q_Q3         N01513 IN- N01588 BC807-25 
+Q_Q4         N02353 IN+ N01588 BC807-25 
+Q_Q1         N02851 N02760 N02452 BC807-25 
+J_J1         N60166 N01073 0 J309 
+R_R18         N01513 N03433  1 TC=0,0 
+R_R5         N598401 IN-  10k TC=0,0 
+R_R7         OUT N598401  100 TC=0,0 
+R_R13         IN+ N02452  390k TC=0,0 
+Q_Q2         OUT N02851 N02760 BC807-25 
+R_RL         0 OUT  230 TC=0,0 
+X_R8         N69176 N69176 IN- POT PARAMS: SET=1 VALUE=5k
+R_R21         N02760 N02452  220 TC=0,0 
+R_R20         N02760 N02452  33 TC=0,0 
+R_R16         N01513 N02851  220k TC=0,0 
+R_R15         N01513 N02851  22k TC=0,0 
