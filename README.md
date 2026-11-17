@@ -44,7 +44,7 @@ Without OrCAD, the exported netlist `orcad/SCHEMATIC1.net` can be used in any SP
 .
 ├── README.md
 ├── docs/
-│   └── Report_P1.pdf        # full project report (in Romanian)
+│   └── Prezentare.pptx      # full project report (in Romanian)
 ├── img/                     # schematic and simulation plots
 ├── orcad/                   # OrCAD project, schematic and netlist
 └── .gitignore
@@ -52,4 +52,4 @@ Without OrCAD, the exported netlist `orcad/SCHEMATIC1.net` can be used in any SP
 
 ## Documentation
 
-The full project report, with calculations, component values and discussion of the problems encountered, is in [`docs/Prezentare.pdf`](docs/Prezentare.pdf) (in Romanian).
+The full project report, with calculations, component values and discussion of the problems encountered, is in [`docs/Prezentare.pptx`](docs/Prezentare.pptx) (in Romanian).
