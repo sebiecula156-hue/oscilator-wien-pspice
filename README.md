@@ -2,7 +2,7 @@
 
 Design and simulation in OrCAD PSpice of an RC Wien bridge oscillator. The output amplitude is stabilised automatically by a JFET in an AGC (automatic gain control) loop, and the output stage is built to limit the short-circuit current. All parameters are derived from the assigned number **N = 13**.
 
-![Schematic](img/schematic.png)
+![Schematic](images/schema.png)
 
 ## Specifications and results
 
@@ -24,7 +24,7 @@ Design and simulation in OrCAD PSpice of an RC Wien bridge oscillator. The outpu
 
 ## Simulations
 
-All plots are in [`img/`](img/):
+All plots are in [`images/`](images/):
 
 - **Transient analysis:** start-up of the oscillation and steady-state amplitude (`tranzitoriu.png`).
 - **AC analysis (Bode plot):** amplifier gain and phase (`Banda si Faza.jpg`).
@@ -52,4 +52,4 @@ Without OrCAD, the exported netlist `orcad/SCHEMATIC1.net` can be used in any SP
 
 ## Documentation
 
-The full project report, with calculations, component values and discussion of the problems encountered, is in [`docs/Report_P1.pdf`](docs/Report_P1.pdf) (in Romanian).
+The full project report, with calculations, component values and discussion of the problems encountered, is in [`docs/Prezentare.pdf`](docs/Prezentare.pdf) (in Romanian).
