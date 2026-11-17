@@ -1,0 +1,17 @@
+# PSpice simulation results
+*.dat
+*.out
+*.cir
+*.log
+
+# OrCAD backups and temporary files
+*.bak
+*.dbk
+*.tmp
+*.lck
+*~
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
